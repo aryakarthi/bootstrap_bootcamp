@@ -8,23 +8,24 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css.map">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
   <title>Bootstarp</title>
 </head>
-<body>
-  <section class="banner-section">
-    <div class="container">
+<body class="bg-secondary">
+  <section class="container-section">
+    <div class="container bg-light px-5 py-3">
 
-      <h1 class="text-center">Bootstrap Bootcamp</h1>
+      <h1 class="text-center text-primary p-2">Bootstrap Bootcamp</h1>
 
-      <h3 class="text-decoration-underline">Headings</h3>
-      <p class="h1">h1. Bootstrap heading</p>
-      <p class="h2">h2. Bootstrap heading</p>
-      <p class="h3">h3. Bootstrap heading</p>
-      <p class="h4">h4. Bootstrap heading</p>
-      <p class="h5">h5. Bootstrap heading</p>
-      <p class="h6">h6. Bootstrap heading</p>
+      <h2 class="text-decoration-underline text-danger p-2">Headings</h2>
+      <p class="h1">h1. Bootstrap</p>
+      <p class="h2">h2. Bootstrap</p>
+      <p class="h3">h3. Bootstrap</p>
+      <p class="h4">h4. Bootstrap</p>
+      <p class="h5">h5. Bootstrap</p>
+      <p class="h6">h6. Bootstrap</p>
 
-      <h3 class="text-decoration-underline">Display Headings</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Display Headings</h2>
 
       <h1 class="display-1">Display 1</h1>
       <h1 class="display-2">Display 2</h1>
@@ -33,31 +34,71 @@
       <h1 class="display-5">Display 5</h1>
       <h1 class="display-6">Display 6</h1>
 
-      <h3 class="text-decoration-underline">Lead</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Lead</h2>
 
       <p class="lead">
         This is a lead paragraph. It stands out from regular paragraphs.
       </p>
 
-      <h3 class="text-decoration-underline">Inline Text Elements</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Inline Text Elements</h2>
 
-      <p>You can use the mark tag to <span class="mark">highlight</span> text.</p>
-      <p class="small">This line of text is meant to be treated as fine print.</p>
-      <p class="fw-bold">This line rendered as bold text.</p>
-      <p class="fst-italic">This line rendered as italicized text.</p>
+      <p><span class="fw-bold text-danger">Highlight</span> - You can use the mark tag to <span class="mark">highlight</span> text.</p>
+      <p><span class="fw-bold text-danger">Small</span><span class="small"> - This line of text is meant to be treated as fine print.</span></p>
+      <p><span class="fw-bold text-danger">Bold/Strong</span><span class="fw-bold"> - This line rendered as bold text.</span></p>
+      <p><span class="fw-bold text-danger">Itatlic/Emphasis</span><span class="fst-italic"> - This line rendered as italicized text.</span></p>
 
-      <h3 class="text-decoration-underline">Text Decorations</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Text Decorations</h2>
 
-      <p class="text-decoration-line-through">This line of text is meant to be treated as no longer accurate.</p>
-      <p class="text-decoration-underline">This line of text will render as underlined.</p>
-      <a href="#" class="text-decoration-none">This link has its text decoration removed</a>
+      <p><span class="fw-bold text-danger">Line-through</span><span class="text-decoration-line-through"> - This line of text is meant to be treated as no longer accurate.</span> </p>
+      <p><span class="fw-bold text-danger">Underline</span><span class="text-decoration-underline"> - This line of text will render as underlined.</span></p>
+      <p><span class="fw-bold text-danger">None - </span><a href="#" class="text-decoration-none"><span>This link has its text decoration removed</span></a></p>
 
-      <h3 class="text-decoration-underline">Abbreviations</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Text Transform</h2>
+
+      <p><span class="fw-bold text-danger">Lowercase</span><span class="text-lowercase"> - Lorem ipsum dolor sit amet consectetur adipisicing.</span></p>
+      <p><span class="fw-bold text-danger">Uppercase</span><span class="text-uppercase"> - Lorem ipsum dolor sit amet consectetur adipisicing.</span></p>
+      <p><span class="fw-bold text-danger">Capitalize</span><span class="text-capitalize"> - Lorem ipsum dolor sit amet consectetur adipisicing.</span></p>
+
+      <h2 class="text-decoration-underline text-danger p-2">Font Size</h2>
+
+      <p><span class="fw-bold text-danger">fs-1 - </span> <span class="fs-1">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">fs-2 - </span> <span class="fs-2">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">fs-3 - </span> <span class="fs-3">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">fs-4 - </span> <span class="fs-4">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">fs-5 - </span> <span class="fs-5">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">fs-6 - </span> <span class="fs-6">Lorem, ipsum dolor.</span></p>
+
+      <h2 class="text-decoration-underline text-danger p-2">Font Weight & Italic</h2>
+
+      <p><span class="fw-bold text-danger">Bold - </span> <span class="fw-bold">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Bolder - </span> <span class="fw-bolder">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Semibold - </span> <span class="fw-semibold">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Normal - </span> <span class="fw-normal">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Light - </span> <span class="fw-light">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Lighter - </span> <span class="fw-lighter">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Normal Style - </span> <span class="fst-normal">Lorem, ipsum dolor.</span></p>
+      <p><span class="fw-bold text-danger">Italic Style - </span> <span class="fst-italic">Lorem, ipsum dolor.</span></p>
+
+
+
+      <h2 class="text-decoration-underline text-danger p-2">Line Height</h2>
+
+      <p><span class="fw-bold text-danger">lh-1 - </span> <span class="lh-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum a similique odio sint corrupti, consectetur iusto architecto non accusamus cupiditate ducimus minima rerum libero, id temporibus, reiciendis nulla molestiae! Facilis!</span></p>
+      <p><span class="fw-bold text-danger">lh-sm - </span> <span class="lh-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum a similique odio sint corrupti, consectetur iusto architecto non accusamus cupiditate ducimus minima rerum libero, id temporibus, reiciendis nulla molestiae! Facilis!</span></p>
+      <p><span class="fw-bold text-danger">lh-base - </span> <span class="lh-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum a similique odio sint corrupti, consectetur iusto architecto non accusamus cupiditate ducimus minima rerum libero, id temporibus, reiciendis nulla molestiae! Facilis!</span></p>
+      <p><span class="fw-bold text-danger">lh-lg - </span> <span class="lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum a similique odio sint corrupti, consectetur iusto architecto non accusamus cupiditate ducimus minima rerum libero, id temporibus, reiciendis nulla molestiae! Facilis!</span></p>
+
+      <h2 class="text-decoration-underline text-danger p-2">Monospace</h2>
+
+      <p class="font-monospace">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae?</p>
+
+
+      <h2 class="text-decoration-underline text-danger p-2">Abbreviations</h2>
 
       <p><abbr title="String">str</abbr></p>
       <p><abbr title="Cascading Style Sheet" class="initialism">CSS</abbr></p>
 
-      <h3 class="text-decoration-underline">Blockquotes</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Blockquotes</h2>
 
       <figure>
         <blockquote class="blockquote">
@@ -68,9 +109,9 @@
         </figcaption>
       </figure>
 
-      <h3 class="text-decoration-underline">Text Alignment</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Text Alignment</h2>
 
-      <h4 class="text-decoration-underline">Left</h4>
+      <h4 class="text-decoration-underline text-success text-start">Left</h4>
 
       <figure class="text-start">
         <blockquote class="blockquote">
@@ -81,7 +122,7 @@
         </figcaption>
       </figure>
 
-      <h4 class="text-decoration-underline">Center</h4>
+      <h4 class="text-decoration-underline text-success text-center">Center</h4>
 
       <figure class="text-center">
         <blockquote class="blockquote">
@@ -92,7 +133,7 @@
         </figcaption>
       </figure>
 
-      <h4 class="text-decoration-underline">Right</h4>
+      <h4 class="text-decoration-underline text-success text-end">Right</h4>
 
       <figure class="text-end">
         <blockquote class="blockquote">
@@ -103,8 +144,9 @@
         </figcaption>
       </figure>
 
-      <h3 class="text-decoration-underline">Text Decorations</h3>
-      <h4 class="text-decoration-underline">Unstyle List</h4>
+      <h2 class="text-decoration-underline text-danger p-2">Text Decorations</h2>
+
+      <h4 class="text-decoration-underline text-success">Unstyle List</h4>
 
       <ul class="list-unstyled">
         <li>Lorem ipsum dolor sit amet.</li>
@@ -112,7 +154,7 @@
         <li>Lorem ipsum dolor sit amet.</li>
       </ul>
 
-      <h4 class="text-decoration-underline">Inline List</h4>
+      <h4 class="text-decoration-underline text-success">Inline List</h4>
 
       <ul class="list-inline">
         <li class="list-inline-item">HTML</li>
@@ -120,16 +162,16 @@
         <li class="list-inline-item">Javascript</li>
       </ul>
 
-      <h4 class="text-decoration-underline">Description List</h4>
+      <h4 class="text-decoration-underline text-success">Description List</h4>
 
       <dl class="row">
         <dt class="col-3">Description lists</dt>
         <dd class="col-9">A description list is perfect for defining terms.</dd>
       </dl>
 
-      <h3 class="text-decoration-underline">Tables</h3>
+      <h2 class="text-decoration-underline text-danger p-2">Tables</h2>
 
-      <h4 class="text-decoration-underline">Table Variants</h4>
+      <h4 class="text-decoration-underline text-success">Table Variants</h4>
 
       <table class="table table-secondary">
         <thead>
@@ -161,7 +203,7 @@
         </tbody>
       </table>
 
-      <h4 class="text-decoration-underline">Table Striped & Hover</h4>
+      <h4 class="text-decoration-underline text-success">Table Striped & Hover</h4>
 
       <table class="table table-info table-striped table-hover">
         <thead>
@@ -193,7 +235,7 @@
         </tbody>
       </table>
 
-      <h3 class="text-decoration-underline">Table Active</h3>
+      <h4 class="text-decoration-underline text-success">Table Active</h4>
 
       <table class="table table-warning">
         <thead>
@@ -225,9 +267,7 @@
         </tbody>
       </table>
 
-      <h3 class="text-decoration-underline">Text Decorations</h3>
-
-      <h3 class="text-decoration-underline">Text Decorations</h3>
+      
 
         
     </div>
